@@ -1,0 +1,14 @@
+<?php
+/** @Entity */
+class Administratorius {
+
+  /**
+  *  @Id
+  *  @Column(type="integer")
+  *  @GeneratedValue
+  */
+  private $id;
+  /** @Column(length=140) */
+  private $username;
+
+}

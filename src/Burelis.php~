@@ -1,0 +1,13 @@
+<?php
+/** @Entity */
+class Burelis {
+  /**
+  *  @Id
+  *  @Column(type="integer")
+  *  @GeneratedValue
+  */
+  private $id;
+  /** @Column(length=140) */
+  private $pavadinimas;
+
+}

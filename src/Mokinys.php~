@@ -1,0 +1,21 @@
+<?php
+/** @Entity */
+class Mokinys {
+
+  /**
+  *  @Id
+  *  @Column(type="integer")
+  *  @GeneratedValue
+  */
+  private $id;
+  /** @Column(length=140) */
+  private $vardas;
+  /** @Column(length=140) */
+  private $pavarde;
+  /**
+     * @ManyToOne(targetEntity="Burelis")
+     * @JoinColumn(name="burelis_id", referencedColumnName="id")
+     */
+  private $burelis_id;
+
+}

@@ -1,0 +1,14 @@
+<?php
+/** @Entity */
+class Vadovas {
+
+  /**
+  *  @Id
+  *  @Column(type="integer")
+  *  @GeneratedValue
+  */
+  private $id;
+  /** @Column(length=140) */
+  private $vardas;
+
+}

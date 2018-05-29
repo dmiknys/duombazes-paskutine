@@ -1,0 +1,9 @@
+{% extends "login.twig" %}
+
+{% block content  %}
+
+{% for admins in admin %}
+  <tr>{{ admins.name }}</tr>
+{% endfor %}
+
+{% endblock %}

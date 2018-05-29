@@ -1,0 +1,20 @@
+<?php
+/** @Entity */
+class Uzsiemimas {
+
+  /**
+  *  @Id
+  *  @Column(type="integer")
+  *  @GeneratedValue
+  */
+  private $id;
+  /**  @Column(type="datetime")  */
+  private $laikas;
+  /**
+     * @ManyToOne(targetEntity="Burelis")
+     * @JoinColumn(name="burelis_id", referencedColumnName="id")
+     */
+  private $burelis_id;
+
+
+}

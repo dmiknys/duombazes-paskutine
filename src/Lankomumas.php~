@@ -1,0 +1,27 @@
+<?php
+/** @Entity */
+class Lankomumas {
+
+  /**
+  *  @Id
+  *  @Column(type="integer")
+  *  @GeneratedValue
+  */
+  private $id;
+  /**
+     * @ManyToOne(targetEntity="Mokinys")
+     * @JoinColumn(name="mokinys_id", referencedColumnName="id")
+     */
+  private $mokinys_id;
+  /**
+     * @ManyToOne(targetEntity="Uzsiemimas")
+     * @JoinColumn(name="uzsiemimas_id", referencedColumnName="id")
+     */
+  private $uzsiemimas_id;
+  /**
+     * @Column(type="boolean")
+     */
+  private $lankomumas;
+
+
+}
