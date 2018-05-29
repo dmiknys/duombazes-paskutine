@@ -39,9 +39,9 @@ class __TwigTemplate_034e2fa8ff332505f533c72ca2841069260757fcc67c2448151abcbaf90
         $context['_seq'] = twig_ensure_traversable(($context["admin"] ?? null));
         foreach ($context['_seq'] as $context["_key"] => $context["admins"]) {
             // line 6
-            echo "  <tr>";
-            echo twig_escape_filter($this->env, twig_get_attribute($this->env, $this->source, $context["admins"], "name", array()), "html", null, true);
-            echo "</tr>
+            echo "  <tr><td>";
+            echo twig_escape_filter($this->env, twig_get_attribute($this->env, $this->source, $context["admins"], "username", array()), "html", null, true);
+            echo "</td><td>Login</td></tr>
 ";
         }
         $_parent = $context['_parent'];
@@ -74,10 +74,10 @@ class __TwigTemplate_034e2fa8ff332505f533c72ca2841069260757fcc67c2448151abcbaf90
 {% block content  %}
 
 {% for admins in admin %}
-  <tr>{{ admins.name }}</tr>
+  <tr><td>{{ admins.username }}</td><td>Login</td></tr>
 {% endfor %}
 
 {% endblock %}
-", "loginData.twig", "C:\\xampp\\htdocs\\learning OOP\\duombazes paskutine\\templates\\loginData.twig");
+", "loginData.twig", "C:\\xampp\\htdocs\\duombazes-paskutine\\templates\\loginData.twig");
     }
 }

@@ -3,7 +3,7 @@
 {% block content  %}
 
 {% for admins in admin %}
-  <tr>{{ admins.name }}</tr>
+  <tr><td>{{ admins.username }}</td><td>Login</td></tr>
 {% endfor %}
 
 {% endblock %}

@@ -24,53 +24,53 @@ class __TwigTemplate_a9a358ee056e08d2f9405ab774ba18838c56d0adb122ee479298b9e4af4
         // line 1
         echo "<!doctype html>
 <html lang=\"en\">
-  <head>
-    <!-- Required meta tags -->
-    <meta charset=\"utf-8\">
-    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1, shrink-to-fit=no\">
+<head>
+\t<!-- Required meta tags -->
+\t<meta charset=\"utf-8\">
+\t<meta name=\"viewport\" content=\"width=device-width, initial-scale=1, shrink-to-fit=no\">
 
-    <!-- Bootstrap CSS -->
-    <link rel=\"stylesheet\" href=\"https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css\" integrity=\"sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB\" crossorigin=\"anonymous\">
+\t<!-- Bootstrap CSS -->
+\t<link rel=\"stylesheet\" href=\"https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css\" integrity=\"sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB\" crossorigin=\"anonymous\">
 
-    <title>Lankomumo sistema</title>
-  </head>
-  <body>
-<div class=\"container\">
-  <h2>Prisijungti:</h2>
-  <table class=\"table table-bordered\">
-    <thead>
-      <tr>
-        <th>Administratorius</th>
-        <th>Login</th>
-      </tr>
-    </thead>
-    <tbody>
-      ";
+\t<title>Lankomumo sistema</title>
+</head>
+<body>
+\t<div class=\"container\">
+\t\t<h2>Prisijungti:</h2>
+\t\t<table class=\"table table-bordered\">
+\t\t\t<thead>
+\t\t\t\t<tr>
+\t\t\t\t\t<th>Administratorius</th>
+\t\t\t\t\t<th>Login</th>
+\t\t\t\t</tr>
+\t\t\t</thead>
+\t\t\t<tbody>
+\t\t\t\t";
         // line 24
         $this->displayBlock('content', $context, $blocks);
         // line 27
-        echo "    </tbody>
-  </table>
-  <!-- <table class=\"table table-bordered\">
-    <thead>
-      <tr>
-        <th>Vadovas</th>
-        <th>Login</th>
-      </tr>
-    </thead>
-    <tbody>
-      ";
+        echo "\t\t\t</tbody>
+\t\t</table>
+\t\t<!-- <table class=\"table table-bordered\">
+\t\t<thead>
+\t\t<tr>
+\t\t<th>Vadovas</th>
+\t\t<th>Login</th>
+\t</tr>
+</thead>
+<tbody>
+";
         // line 37
         $this->displayBlock('vadovas', $context, $blocks);
         // line 40
-        echo "    </tbody>
-  </table> -->
+        echo "</tbody>
+</table> -->
 </div>
 
-        <script src=\"https://code.jquery.com/jquery-3.3.1.slim.min.js\" integrity=\"sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo\" crossorigin=\"anonymous\"></script>
-        <script src=\"https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js\" integrity=\"sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49\" crossorigin=\"anonymous\"></script>
-      </body>
-  </html>
+<script src=\"https://code.jquery.com/jquery-3.3.1.slim.min.js\" integrity=\"sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo\" crossorigin=\"anonymous\"></script>
+<script src=\"https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js\" integrity=\"sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49\" crossorigin=\"anonymous\"></script>
+</body>
+</html>
 ";
     }
 
@@ -78,8 +78,8 @@ class __TwigTemplate_a9a358ee056e08d2f9405ab774ba18838c56d0adb122ee479298b9e4af4
     public function block_content($context, array $blocks = array())
     {
         // line 25
-        echo "      
-    \t";
+        echo "
+\t\t\t\t";
     }
 
     // line 37
@@ -87,7 +87,7 @@ class __TwigTemplate_a9a358ee056e08d2f9405ab774ba18838c56d0adb122ee479298b9e4af4
     {
         // line 38
         echo "
-    \t";
+";
     }
 
     public function getTemplateName()
@@ -104,51 +104,51 @@ class __TwigTemplate_a9a358ee056e08d2f9405ab774ba18838c56d0adb122ee479298b9e4af4
     {
         return new Twig_Source("<!doctype html>
 <html lang=\"en\">
-  <head>
-    <!-- Required meta tags -->
-    <meta charset=\"utf-8\">
-    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1, shrink-to-fit=no\">
+<head>
+\t<!-- Required meta tags -->
+\t<meta charset=\"utf-8\">
+\t<meta name=\"viewport\" content=\"width=device-width, initial-scale=1, shrink-to-fit=no\">
 
-    <!-- Bootstrap CSS -->
-    <link rel=\"stylesheet\" href=\"https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css\" integrity=\"sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB\" crossorigin=\"anonymous\">
+\t<!-- Bootstrap CSS -->
+\t<link rel=\"stylesheet\" href=\"https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css\" integrity=\"sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB\" crossorigin=\"anonymous\">
 
-    <title>Lankomumo sistema</title>
-  </head>
-  <body>
-<div class=\"container\">
-  <h2>Prisijungti:</h2>
-  <table class=\"table table-bordered\">
-    <thead>
-      <tr>
-        <th>Administratorius</th>
-        <th>Login</th>
-      </tr>
-    </thead>
-    <tbody>
-      {% block content %}
-      
-    \t{% endblock %}
-    </tbody>
-  </table>
-  <!-- <table class=\"table table-bordered\">
-    <thead>
-      <tr>
-        <th>Vadovas</th>
-        <th>Login</th>
-      </tr>
-    </thead>
-    <tbody>
-      {% block vadovas %}
+\t<title>Lankomumo sistema</title>
+</head>
+<body>
+\t<div class=\"container\">
+\t\t<h2>Prisijungti:</h2>
+\t\t<table class=\"table table-bordered\">
+\t\t\t<thead>
+\t\t\t\t<tr>
+\t\t\t\t\t<th>Administratorius</th>
+\t\t\t\t\t<th>Login</th>
+\t\t\t\t</tr>
+\t\t\t</thead>
+\t\t\t<tbody>
+\t\t\t\t{% block content %}
 
-    \t{% endblock %}
-    </tbody>
-  </table> -->
+\t\t\t\t{% endblock %}
+\t\t\t</tbody>
+\t\t</table>
+\t\t<!-- <table class=\"table table-bordered\">
+\t\t<thead>
+\t\t<tr>
+\t\t<th>Vadovas</th>
+\t\t<th>Login</th>
+\t</tr>
+</thead>
+<tbody>
+{% block vadovas %}
+
+{% endblock %}
+</tbody>
+</table> -->
 </div>
 
-        <script src=\"https://code.jquery.com/jquery-3.3.1.slim.min.js\" integrity=\"sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo\" crossorigin=\"anonymous\"></script>
-        <script src=\"https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js\" integrity=\"sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49\" crossorigin=\"anonymous\"></script>
-      </body>
-  </html>
-", "login.twig", "C:\\xampp\\htdocs\\learning OOP\\duombazes paskutine\\templates\\login.twig");
+<script src=\"https://code.jquery.com/jquery-3.3.1.slim.min.js\" integrity=\"sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo\" crossorigin=\"anonymous\"></script>
+<script src=\"https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js\" integrity=\"sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49\" crossorigin=\"anonymous\"></script>
+</body>
+</html>
+", "login.twig", "C:\\xampp\\htdocs\\duombazes-paskutine\\templates\\login.twig");
     }
 }
